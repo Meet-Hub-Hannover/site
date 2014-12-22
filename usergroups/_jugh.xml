@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usergroup>
+    <name>Java User Group Hannover</name>
+    <nickname>JUGH</nickname>
+    <!--<description>Die Java User Group Frankfurt ist ein lokaler Verbund von Entwicklern, die sich für Themen rund um die
+        Programmiersprache Java interessieren. Schwerpunkte der User Group sind die Themen Enterprise Applications mit
+        dem Spring Framework, Skriptsprachen auf der JVM: Groovy &amp; Scala,
+        Fast Prototyping &amp; Cloud Computing: Grails, Google App Engine &amp; Co.
+        Wir versuchen, in regelmäßigen Treffen Informationen rund um diese Themen in lockerer Atmosphäre auszutauschen.
+        Nach Möglichkeit soll für jedes Treffen ein Thema festgelegt werden, über welches ein oder mehrere Teilnehmer
+        referieren.
+    </description>-->
+    <url>http://www.jug-h.de</url>
+    <!-- <tags>
+        <tag>Java</tag>
+        <tag>Groovy</tag>
+        <tag>Spring</tag>
+    </tags>
+    <contact>
+        <mailinglist>
+            <url>https://groups.google.com/forum/?hl=en&amp;fromgroups#!forum/jugf-java-user-group-frankfurt</url>
+            <label>Mailingliste</label>
+        </mailinglist>
+        <twitter>@jugffm</twitter>
+        <googleplus>https://plus.google.com/u/0/communities/116872166355404683062</googleplus>
+        <xing>https://www.xing.com/net/pria6135dx/jugf/</xing>
+    </contact>-->
+    <schedule><ical>https://www.google.com/calendar/ical/jughannover%40gmail.com/public/basic.ics</ical></schedule>
+</usergroup>
