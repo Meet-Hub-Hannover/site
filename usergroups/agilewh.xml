@@ -3,5 +3,5 @@
     <name>Agile Wednesday</name>
     <nickname>AgileWH</nickname>
     <url>http://www.agilewh.de</url>
-    <schedule><ical>http://localhost:8080/Meethub-Hannover/agilewh.ics</ical></schedule>
+    <schedule><ical>http://localhost:8080/Meet-Hub-Hannover/agilewh.ics</ical></schedule>
 </usergroup>

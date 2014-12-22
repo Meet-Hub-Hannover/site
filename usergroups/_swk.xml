@@ -3,5 +3,5 @@
     <name>Softwerkskammer Regionalgruppe Hannover</name>
     <nickname>SWK</nickname>
     <url>https://www.softwerkskammer.org/groups/hannover</url>
-    <schedule><ical>http://localhost:8080/Meethub-Hannover/swk.ics</ical></schedule>
+    <schedule><ical>http://localhost:8080/Meet-Hub-Hannover/swk.ics</ical></schedule>
 </usergroup>
