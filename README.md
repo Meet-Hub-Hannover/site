@@ -1,4 +1,4 @@
 site
 ====
 
-Inhalt der Webseite, der automatisch auf den Produktionsserver deployt wird
+Inhalt der Webseite (http://meet-hub-hannover.de), der automatisch auf den Produktionsserver deployt wird
