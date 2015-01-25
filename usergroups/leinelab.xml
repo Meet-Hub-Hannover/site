@@ -3,5 +3,5 @@
     <name>Leinelab</name>
     <nickname>Leinelab</nickname>
     <url>http://leinelab.org</url>
-    <schedule><ical>http://localhost:8080/Meethub-Hannover/leinelab.ics</ical></schedule>
+    <schedule><ical>http://cal.leinelab.de/leinelab.ics</ical></schedule>
 </usergroup>
