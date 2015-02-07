@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usergroup>
+    <name>Hannover.js</name>
+    <nickname>Hannover.js</nickname>
+    <url>http://hannoverjs.github.io/hannoverjs.de/</url>
+    <schedule><ical>http://localhost:8080/Meet-Hub-Hannover/hannoverjs.ics</ical></schedule>
+</usergroup>
