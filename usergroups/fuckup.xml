@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usergroup>
+    <name>FuckUp Nights Hannover</name>
+    <nickname>FUN</nickname>
+    <url>http://fuckupnights.com/hannover/</url>
+    <schedule><ical>http://localhost:8080/Meet-Hub-Hannover/fuckupnights.ics</ical></schedule>
+</usergroup>
