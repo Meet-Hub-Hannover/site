@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usergroup>
+    <name>lean drinks hannover</name>
+    <nickname>lean drinks</nickname>
+    <url>http://leandrinks.strikingly.com</url>
+    <schedule><ical>http://localhost:8080/Meethub-Hannover/leandrinks.ics</ical></schedule>
+</usergroup>
