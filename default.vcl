@@ -8,6 +8,21 @@ backend default {
   .host = "127.0.0.1";
   .port = "8080";
 }
+
+sub vcl_recv {
+    if (req.url == "/") {
+        error 750 "/index.html";
+    }
+	set req.url = "/Meet-Hub-Hannover" + req.url;
+}
+
+sub vcl_error {
+    if (obj.status == 750) {
+        set obj.http.Location = obj.response;
+        set obj.status = 302;
+        return(deliver);
+    }
+}
 # 
 # Below is a commented-out copy of the default VCL logic.  If you
 # redefine any of these subroutines, the built-in logic will be
