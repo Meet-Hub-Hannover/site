@@ -6,7 +6,7 @@
 # 
 backend default {
   .host = "127.0.0.1";
-  .port = "80";
+  .port = "8080";
 }
 # 
 # Below is a commented-out copy of the default VCL logic.  If you
