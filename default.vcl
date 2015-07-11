@@ -14,7 +14,8 @@ sub vcl_recv {
     if (req.url == "/") {
         error 750 "/index.html";
     }
-	set req.url = "/Meet-Hub-Hannover" + req.url;
+    set req.url = "/Meet-Hub-Hannover" + req.url;
+    set req.grace = 24h;
 }
 
 sub vcl_error {
@@ -25,7 +26,7 @@ sub vcl_error {
     }
 }
 
-sub vcl_backend_response {
+sub vcl_fetch {
     set beresp.grace = 24h;
 }
 
