@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /srv/stor/git/Meet-Hub-Hannover/site
-git pull >pull.txt
+git pull &>pull.txt
 if grep -q 'Already up-to-date' <pull.txt; then
     exit
 fi
