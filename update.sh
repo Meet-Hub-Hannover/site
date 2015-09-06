@@ -4,6 +4,8 @@ git pull &>pull.txt
 if grep -q 'Already up-to-date' <pull.txt; then
     exit
 fi
+#leeres Verzeichnis fuer Jetty erstellen. Kann nicht eingecheckt werden, weil git das nicht kann
+mkdir ./jettyWork
 ./jetty/bin/jetty.sh restart &>updateLog.txt
 cp ./default.vcl /etc/varnish/ &>>updateLog.txt
 cp ./varnish /etc/sysconfig/ &>>updateLog.txt
