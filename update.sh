@@ -6,6 +6,7 @@ if grep -q 'Already up-to-date' <pull.txt; then
 fi
 #leeres Verzeichnis fuer Jetty erstellen. Kann nicht eingecheckt werden, weil git das nicht kann
 mkdir ./jettyWork
+set JETTY_BASE=./meethub-jetty-base
 ./jetty/bin/jetty.sh restart &>updateLog.txt
 cp ./default.vcl /etc/varnish/ &>>updateLog.txt
 cp ./varnish /etc/sysconfig/ &>>updateLog.txt
