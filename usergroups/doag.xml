@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usergroup>
+    <name>DOAG Regionalgruppe Hannover</name>
+    <nickname>DOAG</nickname>
+    <url>http://www.doag.org/de/events/regionaltreffen/hannover.html</url>
+    <schedule><ical>https://www.google.com/calendar/ical/doag.hannover%40gmail.de/public/basic.ics</ical></schedule>
+</usergroup>
