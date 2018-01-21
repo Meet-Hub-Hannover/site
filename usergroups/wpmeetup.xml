@@ -3,5 +3,5 @@
     <name>WordPress Meetup</name>
     <nickname>WP</nickname>
     <url>http://wpmeetup-hannover.de</url>
-    <schedule><ical>http://www.meetup.com/Hannover-WordPress-Meetup/events/ical/</ical></schedule>
+    <schedule><ical>https://www.meetup.com/Hannover-WordPress-Meetup/events/ical/</ical></schedule>
 </usergroup>
